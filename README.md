@@ -1,11 +1,7 @@
-# comments
+## Comments at genicsblog.com
 
-This repository used to host the comments at [genicsblog.com](https://genicsblog.com).
+This repository hosts the comments at [genicsblog.com](https://genicsblog.com).
 
-The [main repository](https://github.com/genicsblog/genicsblog.com) retreived these comments at workflow runtime to include them to the generated static site.
+Previously we used a self-hosted [Staticman](https://staticman.net) API instance and the [main repository](https://github.com/genicsblog/genicsblog.com) retreived these comments at workflow runtime to include them to the generated static site.
 
-## NOTICE
-
-COMMENTS FEATURES AT [GENICS BLOG](https://genicsblog.com) ARE NOT AVAILABLE ANYMORE.
-
-In light of recent [spam](https://github.com/genicsblog/comments/pulls?q=is%3Aclosed) and API abuse, the comment features were removed from the blog. This repository still remains to be a public archive for record.
+Now, the setup has been moved to [giscus](https://giscus.app) and uses [GitHub Discussions](https://github.com/genicsblog/comments/discussions) to host the comments.
